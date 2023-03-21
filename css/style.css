@@ -1,0 +1,227 @@
+:root{
+--f7-theme-color:#716C6E;
+--f7-navbar-bg-color: #D0B6A4; /*navbar*/
+--f7-navbar-text-color:#615260;
+--f7-navbar-link-color:#EADDD3; /*link navbar*/
+--f7-bars-bg-color:#B88B6C;/*toolbar*/
+--f7-block-margin-vertical:50px;
+--f7-card-footer-border-color:transparent; 
+--color-gris:#666666;
+--color-negro:#B095AE;
+}
+body{
+	font-weight: 400;
+	color: var(--color-negro);
+	font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 400;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.toolbar .tab-link{
+	color: #fff;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: inherit;
+}
+
+p{
+	margin: 1px;
+}
+.img-fluid{
+	max-width: 100%;
+}
+.block-title{
+	color: var(--color-negro);
+	font-size: 18px;
+	font-weight: 600;
+	overflow: inherit;
+}
+.letra-link-title{
+	font-size: 80%;
+}
+.letra-link-title span{
+	font-size: 85%;
+}
+
+
+.texto-inicial{
+	color: var(--f7-theme-color);
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 1.3;
+}
+
+
+.banner-inicio{
+	background-color: var(--f7-theme-color);
+	color: #fff;
+	padding: 10px 10px 0;
+	border-radius: 15px;
+	margin-top: 30px;
+	position: relative;
+}
+.banner-inicio h2{
+	font-size: 20px;
+	font-weight: 600;
+}
+.banner-inicio .precio{
+	background-color: #8f8f8f;
+	color: #fff;
+	font-weight: 400;
+	padding: 7px 20px;
+	display: inline-block;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	margin-left: 10px;
+	position: absolute;
+	bottom: 0;
+}
+
+.info-menu{
+	background-color: var(--f7-theme-color);
+	padding: 15px 10px;
+	color: rgba(255,255,255,0.80);
+	font-size: 12px;
+}
+.info-menu .block-title{
+	margin-top: 0;
+}
+.info-menu .icon-usuario{
+	font-size:50px;
+	color: #fff;
+}
+.info-menu .nombre{
+	color: #fff;
+	font-weight: 800;
+}
+.button-perfil{
+	background-color: #fff;
+	color: #000;
+	margin-top: 20px;
+	text-align: left;
+	padding-left: 30px;
+	text-transform: inherit;
+	letter-spacing: 0;
+	font-weight: 600;
+}
+.button-perfil span{
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.panel-left{
+	background-color: #f2f2f2;
+}
+.panel-left .block-title{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #888;
+}
+.panel-left .list ul{
+	font-size: 14px;
+	background-color: #f2f2f2;
+}
+.panel-left .list .item-media{
+	color: var(--f7-theme-color) !important;
+}
+
+
+#productos .card-content{
+	background-color: #f2f2f2;
+	text-align: center;
+}
+#productos .card-footer{
+	background-color: var(--f7-theme-color);
+	color: #fff;
+}
+#productos .card-footer a{
+	color: #fff;
+}
+#productos .nombre{
+	font-weight: 600;
+}
+#productos .categoria{
+	font-size: 14px;
+	color: #888;
+}
+
+
+#list-products a{
+	color: #000;
+	font-size: 16px;
+	font-weight: 600;
+}
+#list-products .card ul{
+	padding-left: 15px;
+	font-size: 11px;
+}
+#list-products .card li{
+	list-style: disc;
+	font-weight: normal;
+}
+
+
+.info-top{
+	background-color: #f2f2f2;
+	color: #888;
+	font-size: 14px;
+	font-weight: 600;
+}
+.list-info{
+	margin-top: 50%;
+}
+.letra-gris{
+	color: #aaa;
+}
+.texto-info{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 14px;
+}
+.precio-info{
+	font-weight: 600;
+	font-size: 20px;
+	text-align: end;
+	margin-right: 30px;
+}
+
+
+
+.sign-up{
+	z-index: 12000;	
+}
+.sign-up .page-content{
+	margin-top: 0;
+}
+
+
+.login-screen h2,
+.login-screen-page h2{
+	color: var(--f7-theme-color);
+	font-weight: 600;
+	font-size: 36px;
+	margin-bottom: 0;
+}
+
+.login-screen h4,
+.login-screen-page h4{
+	font-weight: 500;
+	font-size: 24px;
+	margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

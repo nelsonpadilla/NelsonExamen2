@@ -1,0 +1,424 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nelib Tec</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+	<div id="app">
+		<div class="view view-main view-init">
+			
+			<section class="panel panel-left panel-cover">
+			
+				<div class="Categorias">
+								
+					<div class="row">
+					
+						<article class="col-30 text-align-center">
+							<span class="material-icons icon-usuario">portrait</span>
+						</article>
+						<article class="col-70">
+							<p class="nombre">Nombre Completo</p>
+							<p>nombreapellido@gmail.com</p>
+							<p>Honduras</p>
+						</article>
+					
+					</div>
+					
+					<a href="#" class="button button-fill button-perfil"><span class="material-icons">Cerrar Sesion</span>Cerrar Sesion</a>
+				</div>
+								
+				<h2 class="block-title">Menú</h2>
+				
+				<div class="list accordion-list" style="margin-bottom: 0;">
+					<ul>
+						<li class="accordion-item"><a href="#" class="item-content item-link">
+							<div class="item-inner">
+							  <div class="item-title">Categorias</div>
+							</div></a>
+						  <div class="accordion-item-content">
+							<div class="block">
+							 
+								<div class="lista">
+								  <ul>
+									<li>
+									  <a href="/productos/" class="item-content panel-close">
+										<div class="item-inner">
+											<div class="item-title-row">
+												<div class="item-title">Pantalones</div>
+											</div> 					
+										</div>
+									  </a>
+									</li>
+									<li>
+									  <a href="/productos/" class="item-content panel-close">
+										<div class="item-inner">
+											<div class="item-title-row">
+												<div class="item-title">Zapatos</div>
+											</div> 					
+										</div>
+									  </a>
+									</li>
+									</ul>
+								</div>
+								
+								
+							</div>
+						  </div>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="list media-list" style="margin-top: 0;">
+				  <ul>
+					<li>
+					  <a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media"><i class="material-icons">home</i></div>
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">Principal</div>
+							</div> 					
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/products/" class="item-link item-content panel-close">
+						<div class="item-media"><i class="material-icons">Inventario</i></div>
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">Productos</div>
+							</div> 					
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/home/" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">Carro de compras</i></div>
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">Compras</div>
+							</div> 					
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/home/" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">bookmark</i></div>
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">Favoritos</div>
+							</div> 					
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/home/" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">sell</i></div>
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">Promociones</div>
+							</div> 					
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/home/" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">Carrito de Compras</i></div>
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">Mis Ordenes</div>
+							</div> 					
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/home/" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">person_pin</i></div>
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title">Perfil</div>
+							</div> 					
+						</div>
+					  </a>
+					</li>
+				  </ul>
+				</div>
+								
+			
+			</section>
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+				  	<div class="title">NELIB TECHNOLOGY</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">menu</span></a>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+				  <!-- Aquí va todo el contenido de la aplicación -->
+				  
+				  <div class="block">
+				  
+					  <h3>Welcome<b><span id="username"></span></b></h3>
+					  <h2 class="texto-inicial">Lo más  <br>Comprado</h2>
+					  
+					  <div class="banner-inicio">
+					  
+						  <div class="row">
+						  
+							  <article class="col-55">
+								  <h5>Tendencia</h5>
+								  <h2>Phone X</h2>
+								  <div class="precio">
+								  	only <b>$300</b>
+									  <img src="img/Apple_16-inch-MacBook-Pro_111319.jpg.news_app_ed.jpg" width="120">
+									  
+									 
+								  </div>
+							  </article>
+							  
+							  <article class="col-45">
+							  	<img src="img/images.jpeg" class="img-fluid">
+							  </article>
+						  
+						  </div>
+					  	
+					  </div>
+					  
+					  <div class="row">
+					  
+						  <article class="col-70">
+						  	<h2 class="block-title">MACBOOK PRO</h2>
+						  </article>
+						  
+						  <article class="col-30 text-align-right">
+						  	<h2 class="block-title letra-link-title"><a href="/productos/">See all <span class="material-icons">east</span></a></h2>
+						  </article>
+						  
+					  </div>
+					  
+					  <section id="productos" style="display: none;">
+						  
+						  <div class="row">
+						  
+							  <div class="col">
+							  
+								  <article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/Apple_16-inch-MacBook-Pro_111319.jpg.news_app_ed.jpg" class="img-fluid" alt="">
+											<p class="nombre">APPLE</p>
+											<p class="categoria"></p>
+										</div>
+
+										<div class="card-footer">
+											$400
+											<a href="#"><i class="material-icons">add</i></a>
+										</div>
+									</article>
+							  
+							  </div>
+							  
+							  <div class="col">
+							  
+								  <article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/Apple_16-inch-MacBook-Pro_111319.jpg.news_app_ed.jpg" class="img-fluid" alt="">
+											<p class="nombre">IPHONE 11</p>
+											<p class="categoria"></p>
+										</div>
+
+										<div class="card-footer">
+											$5.75
+											<a href="#"><i class="material-icons">Agregar</i></a>
+										</div>
+									</article>
+							  
+							  </div>
+							  
+						  </div>
+						  
+						  <div class="row">
+						  
+						  
+							  <div class="col">
+							  
+								  <article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/iphone-x-zwart_600x600_BGresize_16777215-tj (1).png" class="img-fluid" alt="">
+											<p class="nombre">GGGG</p>
+											<p class="categoria"> </p>
+										</div>
+
+										<div class="card-footer">
+											$500
+											<a href="#"><i class="material-icons">add</i></a>
+										</div>
+									</article>
+							  
+							  </div>
+							  
+							  <div class="col">
+							  
+								
+							  </div>
+							  
+						  </div>
+						  
+					  </section>
+				  
+					  <section id="productos">
+					  
+						  <div data-space-between="0" data-slides-per-view="2" class="swiper-container swiper-init">
+							  
+							  <div class="swiper-wrapper">
+								  <div class="swiper-slide">
+								  	<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/iphone-x-zwart_600x600_BGresize_16777215-tj (1).png" class="img-fluid" alt="">
+											<p class="nombre">IPHONE 11</p>
+											<p class="categoria"> </p>
+										</div>
+
+										<div class="card-footer">
+											$600
+											<a href="/info/"><i class="material-icons">Agregar</i></a>
+										</div>
+									</article>
+								  </div>
+								  <div class="swiper-slide">
+								  
+									  <article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/Apple_16-inch-MacBook-Pro_111319.jpg.news_app_ed.jpg" class="img-fluid" alt="">
+											<p class="nombre">MACBOOK PRO X</p>
+											<p class="categoria"> </p>
+										</div>
+
+										<div class="card-footer">
+											$500
+											<a href="/info-espresso/"><i class="material-icons">Agregar</i></a>
+										</div>
+									</article>
+								  
+								  </div>
+								  
+								  <div class="swiper-slide">
+								  
+									  <article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/ipadmini.jpeg" class="img-fluid" alt="">
+											<p class="nombre">IPAD MINI</p>
+											<p class="categoria"></p>
+										</div>
+
+									
+				
+				  
+			  </section>
+
+			</section>
+			
+			<nav class="toolbar toolbar-bottom tabbar tabbar-labels">
+			  <div class="toolbar-inner">
+				<a class="tab-link">
+					<i class="material-icons">Principal</i>
+					Home
+				</a>
+				<a class="tab-link">
+					<i class="material-icons">Carrito de Compra</i>
+					Orders
+				</a>
+				<a class="tab-link">
+					<i class="material-icons">person_pin</i>
+					Usuario
+				</a>
+			  </div>
+			</nav>
+			
+
+			<section id="login" class="login-screen modal-in">
+				<div class="view">
+					<section class="page">
+						<div class="page-content login-screen-content">
+							<div class="login-screen-title">
+								<h2>¿Ya te Registraste?</h2>
+								<h4>Para registrarse</h4>
+							</div>
+							<div class="block">
+							
+								<form id="form-login" autocomplete="off">
+								  <div class="lista">
+									<ul>
+									  <li class="item-content item-input">
+										<div class="item-inner">
+										  <div class="item-title item-floating-label">Usuario</div>
+										  <div class="item-input-wrap">
+											<input type="text" id="Usuario Nombre" name="username" placeholder="Usuario" required validate>
+										  </div>
+										</div>
+									  </li>
+									  <li class="item-content item-input">
+										<div class="item-inner">
+										  <div class="item-title item-floating-label">Contraseña</div>
+										  <div class="item-input-wrap">
+											<input type="Contraseña" name="Contraseña" placeholder="Tu Contraseña" required validate>
+										  </div>
+										</div>
+									  </li>
+									</ul>
+								  </div>
+								  <div class="list">
+									<ul>
+									  <li><a href="#" class="button button-fill" id="btnLogin">Registarse</a></li>
+									</ul>
+									<div class="block-footer">
+									  <p>Not member? <a href="/sign-up/" class="link">Registarse</a></p>
+									  <p><a href="#" class="login-screen-close">Cancelar</a></p>
+									</div>
+								  </div>
+								</form>
+								
+							</div>
+						</div><!-- /page-content -->
+					</section><!-- /page -->
+				</div><!-- /view -->
+			</section>
+			<!-- /login-screen -->
+		
+			
+			
+			
+			
+		</div> <!-- /view -->
+		
+		
+		
+		
+		
+		
+	
+	</div><!-- /app -->
+	
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
